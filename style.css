@@ -3,3 +3,8 @@ h1 {
   margin-left: 395px;
   font-weight: bold;
 }
+
+.wrapper {
+  max-width: 1000px;
+  position: relative;
+}
