@@ -18,4 +18,13 @@ h1 {
   top: 45%;
   left: 0;
   right: 0;
+  padding: 10px;
+  border-radius: 30px;
+  color: black;
+  background-color: lime green;
+}
+
+img {
+  width: auto;
+  height: auto;
 }
