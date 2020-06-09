@@ -7,7 +7,7 @@ function plusDivs(n) { //where n is the slide number
 
 function showDivs(n) {
   let i;
-  const x = document.getElementByClassName('mySlides');
+  const x = document.getElementsByClassName('mySlides');
   if (n > x.length) {slideIndex = 1} //if the number of slides is reached, return to the first
   if (n < 1) {slideIndex = x.length} //if n is less than the lowest slide number, return to the last slide
   for (i = 0; i < x.length; i++) {
