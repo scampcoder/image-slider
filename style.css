@@ -1,12 +1,16 @@
+body {
+  text-align: center;
+}
+
 h1 {
   color: black;
-  margin-left: 395px;
   font-weight: bold;
 }
 
 .wrapper {
   max-width: 1000px;
   position: relative;
+  margin:auto;
 }
 
 .mySlides {
