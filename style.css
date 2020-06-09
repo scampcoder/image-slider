@@ -1,10 +1,7 @@
-body {
-  text-align: center;
-}
-
 h1 {
   color: black;
   font-weight: bold;
+  text-align: center;
 }
 
 .wrapper {
@@ -17,15 +14,36 @@ h1 {
   width: 100%;
 }
 
-.button {
+.button1 {
   position: absolute;
-  top: 45%;
-  left: 0;
+  top: 50%;
+  left: 0
+}
+
+.button2 {
+  position: absolute;
+  top: 50%;
   right: 0;
+}
+
+.button1:hover {
+  cursor: pointer;
+}
+
+.button2:hover {
+  cursor: pointer;
+}
+
+#btn1 {
   padding: 10px;
   border-radius: 30px;
-  color: black;
-  background-color: lime green;
+  background-color: lime;
+}
+
+#btn2 {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: lime;
 }
 
 img {
